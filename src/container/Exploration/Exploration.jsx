@@ -18,9 +18,9 @@ const Exploration = () => {
           <h1 className="uk-text-bold">Exploration Design</h1>
         </div>
 
-        <div className=" uk-flex uk-grid-small uk-grid-match uk-margin-medium-top" style={{ height: 380 }} uk-grid>
+        <div className=" uk-flex uk-grid-small uk-grid-match uk-margin-medium-top" >
           <div
-            className="uk-width-2xlarge uk-overflow-hidden uk-margin-small-right uk-transition-toggle"
+            className="uk-width-2xlarge uk-margin-small-right uk-transition-toggle"
           >
             <img
               src={images.exploration01}
@@ -28,7 +28,7 @@ const Exploration = () => {
               className="uk-transition-scale-up uk-transition-opaque"
             />
           </div>
-          <div className="uk-width-1-3 uk-overflow-hidden uk-transition-toggle">
+          <div className="uk-width-1-2 uk-transition-toggle">
             <img
               src={images.exploration02}
               alt="exploration02"
@@ -37,9 +37,9 @@ const Exploration = () => {
           </div>
         </div>
 
-        <div className=" uk-flex uk-grid-small uk-grid-match uk-margin-medium-top" style={{ height: 380 }} uk-grid>
+        <div className=" uk-flex uk-grid-small uk-grid-match uk-margin-medium-top" >
           <div
-            className="uk-width-1-3 uk-overflow-hidden uk-margin-small-right uk-transition-toggle"
+            className="uk-width-1-2 uk-margin-small-right uk-transition-toggle"
           >
             <img
               src={images.exploration03}
@@ -47,7 +47,7 @@ const Exploration = () => {
               className="uk-transition-scale-up uk-transition-opaque"
             />
           </div>
-          <div className="uk-width-2xlarge uk-overflow-hidden uk-transition-toggle">
+          <div className="uk-width-2xlarge uk-transition-toggle">
             <img
               src={images.exploration04}
               alt="exploration04"
@@ -72,9 +72,9 @@ const Exploration = () => {
           />
         </div>
 
-        <div className=" uk-flex uk-grid-small uk-grid-match uk-margin-medium-top" style={{ height: 380 }} uk-grid>
+        <div className=" uk-flex uk-grid-small uk-grid-match uk-margin-medium-top" >
           <div
-            className="uk-width-2xlarge uk-overflow-hidden uk-margin-small-right uk-transition-toggle"
+            className="uk-width-2xlarge  uk-margin-small-right uk-transition-toggle"
           >
             <img
               src={images.exploration06}
@@ -82,7 +82,7 @@ const Exploration = () => {
               className="uk-transition-scale-up uk-transition-opaque"
             />
           </div>
-          <div className="uk-width-1-3 uk-overflow-hidden uk-transition-toggle">
+          <div className="uk-width-1-2 uk-transition-toggle">
             <img
               src={images.exploration07}
               alt="exploration07"
@@ -91,9 +91,9 @@ const Exploration = () => {
           </div>
         </div>
 
-        <div className=" uk-flex uk-grid-small uk-grid-match uk-margin-medium-top" style={{height:380}} uk-grid>
+        <div className=" uk-flex uk-grid-small uk-grid-match uk-margin-medium-top" >
           <div
-            className="uk-width-1-3 uk-overflow-hidden uk-margin-small-right uk-transition-toggle"
+            className="uk-width-1-2 uk-margin-small-right uk-transition-toggle"
           >
             <img
               src={images.exploration08}
@@ -101,7 +101,7 @@ const Exploration = () => {
               className="uk-transition-scale-up uk-transition-opaque"
             />
           </div>
-          <div className="uk-width-2xlarge uk-overflow-hidden uk-transition-toggle">
+          <div className="uk-width-2xlarge uk-transition-toggle">
             <img
               src={images.exploration09}
               alt="exploration09"

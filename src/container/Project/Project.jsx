@@ -6,13 +6,13 @@ const Project = () => {
   return (
     <div
       className="uk-padding-large"
-      style={{ marginTop: "32px", background: "#F1F7FC" }}
+      style={{  background: "#F1F7FC" }}
     >
       <p className="uk-text-muted uk-text-bold uk-animation-slide-left-small">Juli 2022</p>
       <div className="uk-flex uk-flex-between uk-margin-small-bottom">
         <div className="uk-width-3-5 uk-animation-slide-left-small">
           <h2 className="uk-text-bold">PT. Bumi Makmur Mandiri Utama</h2>
-          <p>
+          <p className="change-font">
             BUMA BRV (Bisa Ruang Vokasi) merupakan aplikasi LMS (Learning
             Management Sistem) yang betujuan untuk meningkatkan kualiatas
             kompetensi lulusan SMK/SMA sederajat agar sesuai dengan kebutuhan
