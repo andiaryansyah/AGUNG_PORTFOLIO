@@ -14,10 +14,10 @@ const Header = () => {
           alt="ellipse01"
         />
       </span>
-      <div className="uk-container uk-container-large uk-width-1-1">
+      <div className="uk-container uk-container-large uk-width-1-1" style={{background:"#212529"}}>
         <div className="uk-flex uk-flex-middle uk-margin-medium-top uk-animation-fade">
           <img src={images.logo} alt="logo" style={{ height: "60px" }} />
-          <h4 className="uk-margin-small-left uk-align-center uk-text-bold">
+          <h4 className="uk-margin-small-left uk-align-center uk-text-bold" style={{color: "#fff"}}>
             Portfolio
           </h4>
         </div>
@@ -26,37 +26,39 @@ const Header = () => {
           <div className="uk-position-z-index uk-animation-slide-left-medium uk-width-1-2 ">
             <h1
               className="uk-text-bold uk-heading-small"
-              style={{ color: "#4585C5" }}
+              // style={{ color: "#4585C5" }}
+              style={{color: "#fff"}}
             >
               Agung Azhari
-              <h2 className="uk-text-bold uk-margin-small-top">
+              <h2 className="uk-text-bold uk-margin-small-top" style={{color: "#A4A4A4"}}>
                 UI/UX Designer
               </h2>
             </h1>
-            <p className="uk-margin-medium-top change-font">
+            <p className="uk-margin-medium-top change-font" style={{color: "#fff"}}>
               I'm interested in visuals that look simple and more white space
               and a priority the functional of application product. I have
               approximately more than 3 years of experience as graphic design
               dealing with digital products, especially on user interfaces.
             </p>
-            <p className="uk-text-bold uk-margin-large-top">Follow Me On</p>
+            <p className="uk-text-bold uk-margin-large-top" style={{color: "#fff"}}>Follow Me On</p>
             <div>
               <SocialMedia />
             </div>
             <div className="uk-margin-top">
               <a
                 href="https://drive.google.com/u/0/uc?id=161yFXdTcjg9OMdljE5uG_aUbXEQO0CfX&export=download"
-                download="CV TERBARU 2022"
+                download="CV AGUNG AZHARI"
                 target="_blank"
                 rel="noreferrer"
+                style={{textDecoration: "none"}}
               >
-                <button
-                  className="uk-button uk-button-primary change-font"
-                  style={{ borderRadius: "5px" }}
+                <p
+                  className="uk-p change-font downloadButton"
+                  style={{ fontSize: "20px", fontWeight: "bold", color: "#fff" }}
                 >
                   <IoMdDownload size={20} className="uk-margin-small-right" />{" "}
                   Download CV
-                </button>
+                </p>
               </a>
             </div>
           </div>
@@ -75,6 +77,8 @@ const Header = () => {
                 src={images.decor01}
                 alt="decoration01"
                 className="uk-margin-large-left"
+                style={{ height: "270px" }}
+
               />
             </span>
             <div className="uk-flex uk-animation-slide-right-small uk-flex-right uk-margin-large-right">

@@ -29,7 +29,13 @@ const Project = () => {
       </div>
 
       <div className="uk-transition-toggle">
+        <a 
+        href="https://www.bisaruangvokasi.com/"
+         target="_blank"
+         rel="noreferrer"
+         >
         <img src={images.project01} alt="project01" className="uk-transition-scale-down uk-transition-opaque"/>
+        </a>
       </div>
 
       <div className="uk-margin-large-top">
@@ -37,7 +43,13 @@ const Project = () => {
       </div>
 
       <div className="uk-margin-xlarge-bottom uk-transition-toggle">
+      <a 
+        href="https://www.bisaruangvokasi.com/"
+         target="_blank"
+         rel="noreferrer"
+         >
         <img src={images.project02} alt="project02" className="uk-transition-scale-down uk-transition-opaque"/>
+        </a>
       </div>
     </div>
   );

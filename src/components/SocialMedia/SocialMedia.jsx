@@ -14,6 +14,7 @@ const SocialMedia = () => {
         target="_blank"
         rel="noreferrer noopener"
         className="uk-icon-button uk-margin-small-right"
+        style={{height: "60px", width: "60px"}}
         // style={{color:'#fff', background:'blue'}}
       >
         <FaLinkedinIn />
@@ -23,6 +24,7 @@ const SocialMedia = () => {
         target="_blank"
         rel="noreferrer noopener"
         className="uk-icon-button  uk-margin-small-right"
+        style={{height: "60px", width: "60px"}}
       >
         <FaDribbble />
       </a>
@@ -31,6 +33,7 @@ const SocialMedia = () => {
         target="_blank"
         rel="noreferrer noopener"
         className="uk-icon-button  uk-margin-small-right"
+        style={{height: "60px", width: "60px"}}
       >
         <FaInstagram />
       </a>
@@ -39,6 +42,7 @@ const SocialMedia = () => {
         target="_blank"
         rel="noreferrer noopener"
         className="uk-icon-button"
+        style={{height: "60px", width: "60px"}}
       >
         <FaBehance />
       </a>
