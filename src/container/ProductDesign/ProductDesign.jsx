@@ -41,7 +41,7 @@ const ProductDesign = () => {
         </div>
       </div>
 
-      <div className="uk-margin-large-top uk-transition-toggle">
+      <div className="uk-padding-small uk-margin-large-top uk-transition-toggle">
         <img
           src={images.product01}
           alt="product01"
@@ -57,7 +57,7 @@ const ProductDesign = () => {
             className="uk-transition-scale-up uk-transition-opaque"
           />
         </div>
-        <div className="uk-width-1-3 uk-transition-toggle">
+        <div className="uk-width-1-2 uk-transition-toggle">
           <img
             src={images.product03}
             alt="product03"

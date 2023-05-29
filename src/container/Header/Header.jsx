@@ -5,7 +5,6 @@ import { SocialMedia } from "../../components";
 import { images } from "../../constants";
 
 const Header = () => {
-
   return (
     <>
       <span className="uk-position-absolute" style={{ top: "100px" }}>
@@ -16,14 +15,14 @@ const Header = () => {
         />
       </span>
       <div className="uk-container uk-container-large uk-width-1-1">
-        <div className="uk-flex uk-flex-middle uk-padding-small uk-animation-fade">
+        <div className="uk-flex uk-flex-middle uk-margin-medium-top uk-animation-fade">
           <img src={images.logo} alt="logo" style={{ height: "60px" }} />
           <h4 className="uk-margin-small-left uk-align-center uk-text-bold">
             Portfolio
           </h4>
         </div>
 
-        <div className="uk-flex uk-margin-medium-left ">
+        <div className="uk-flex ">
           <div className="uk-position-z-index uk-animation-slide-left-medium uk-width-1-2 ">
             <h1
               className="uk-text-bold uk-heading-small"
@@ -34,7 +33,7 @@ const Header = () => {
                 UI/UX Designer
               </h2>
             </h1>
-            <p className="uk-margin-medium-top change-font" >
+            <p className="uk-margin-medium-top change-font">
               I'm interested in visuals that look simple and more white space
               and a priority the functional of application product. I have
               approximately more than 3 years of experience as graphic design
@@ -45,15 +44,20 @@ const Header = () => {
               <SocialMedia />
             </div>
             <div className="uk-margin-top">
-                <a href="../../assets/CV-TERBARU-2022.pdf" download target='_blank'>
-              <button
-                className="uk-button uk-button-primary "
-                style={{ borderRadius: "5px" }}
+              <a
+                href="https://drive.google.com/u/0/uc?id=161yFXdTcjg9OMdljE5uG_aUbXEQO0CfX&export=download"
+                download="CV TERBARU 2022"
+                target="_blank"
+                rel="noreferrer"
               >
-                <IoMdDownload size={20} className="uk-margin-small-right" />{" "}
-                Download CV
-              </button>
-                </a>
+                <button
+                  className="uk-button uk-button-primary change-font"
+                  style={{ borderRadius: "5px" }}
+                >
+                  <IoMdDownload size={20} className="uk-margin-small-right" />{" "}
+                  Download CV
+                </button>
+              </a>
             </div>
           </div>
 
@@ -66,7 +70,7 @@ const Header = () => {
               />
             </span>
 
-            <span className="uk-position-center uk-margin-xlarge-left uk-animation-fade">
+            <span className="uk-position-center uk-margin-xlarge-left uk-margin-small-top uk-animation-fade">
               <img
                 src={images.decor01}
                 alt="decoration01"
@@ -77,7 +81,7 @@ const Header = () => {
               <img
                 src={images.profile}
                 alt="profile"
-                style={{ height: "530px" }}
+                style={{ height: "730px" }}
               />
             </div>
           </div>
@@ -88,4 +92,3 @@ const Header = () => {
 };
 
 export default Header;
-

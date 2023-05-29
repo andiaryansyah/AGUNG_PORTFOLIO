@@ -61,7 +61,7 @@ const DesignWeb = () => {
           />
         </div>
 
-        <div className="uk-background-default uk-padding-large uk-margin-medium-top uk-margin-xlarge-bottom uk-inline-clip uk-transition-toggle">
+        <div className="uk-margin-medium-top uk-margin-xlarge-bottom uk-inline uk-transition-toggle">
           <img
             src={images.designweb03}
             alt="designweb03"
@@ -71,6 +71,8 @@ const DesignWeb = () => {
                 <a href="https://bdms.co.id/" className="uk-h4 uk-margin-remove">Go to Website</a>
             </div>
         </div>
+
+        
       </div>
     </>
   );
